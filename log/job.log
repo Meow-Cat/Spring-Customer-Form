@@ -1,0 +1,108 @@
+2021-07-05 14:22:51,607 INFO (StartupInfoLogger.java:55)- Starting CustomerApplication on LAPTOP-CL83BIRI with PID 9620 (F:\workspace\springBoot-customer\target\classes started by TGKJ in F:\workspace\springBoot-customer)
+2021-07-05 14:22:51,609 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-07-05 14:22:51,610 INFO (SpringApplication.java:655)- The following profiles are active: test
+2021-07-05 14:22:53,036 INFO (StartupInfoLogger.java:61)- Started CustomerApplication in 1.944 seconds (JVM running for 2.871)
+2021-07-05 14:24:00,447 INFO (StartupInfoLogger.java:55)- Starting CustomerApplication on LAPTOP-CL83BIRI with PID 15716 (F:\workspace\springBoot-customer\target\classes started by TGKJ in F:\workspace\springBoot-customer)
+2021-07-05 14:24:00,450 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-07-05 14:24:00,451 INFO (SpringApplication.java:655)- The following profiles are active: test
+2021-07-05 14:24:01,919 INFO (StartupInfoLogger.java:61)- Started CustomerApplication in 2.22 seconds (JVM running for 3.184)
+2021-07-05 14:26:23,946 INFO (StartupInfoLogger.java:55)- Starting CustomerApplication on LAPTOP-CL83BIRI with PID 14448 (F:\workspace\springBoot-customer\target\classes started by TGKJ in F:\workspace\springBoot-customer)
+2021-07-05 14:26:23,949 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-07-05 14:26:23,949 INFO (SpringApplication.java:655)- The following profiles are active: test
+2021-07-05 14:26:38,433 INFO (StartupInfoLogger.java:55)- Starting CustomerApplication on LAPTOP-CL83BIRI with PID 30960 (F:\workspace\springBoot-customer\target\classes started by TGKJ in F:\workspace\springBoot-customer)
+2021-07-05 14:26:38,436 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-07-05 14:26:38,437 INFO (SpringApplication.java:655)- The following profiles are active: test
+2021-07-05 14:26:39,689 INFO (StartupInfoLogger.java:61)- Started CustomerApplication in 1.659 seconds (JVM running for 2.283)
+2021-07-05 14:27:16,371 INFO (StartupInfoLogger.java:55)- Starting CustomerApplication on LAPTOP-CL83BIRI with PID 25856 (F:\workspace\springBoot-customer\target\classes started by TGKJ in F:\workspace\springBoot-customer)
+2021-07-05 14:27:16,374 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-07-05 14:27:16,375 INFO (SpringApplication.java:655)- The following profiles are active: test
+2021-07-05 14:27:17,650 INFO (StartupInfoLogger.java:61)- Started CustomerApplication in 1.751 seconds (JVM running for 2.425)
+2021-07-05 14:29:01,287 INFO (StartupInfoLogger.java:55)- Starting CustomerApplication on LAPTOP-CL83BIRI with PID 22500 (F:\workspace\springBoot-customer\target\classes started by TGKJ in F:\workspace\springBoot-customer)
+2021-07-05 14:29:01,290 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-07-05 14:29:01,290 INFO (SpringApplication.java:655)- The following profiles are active: test
+2021-07-05 14:29:42,310 INFO (StartupInfoLogger.java:55)- Starting CustomerApplication on LAPTOP-CL83BIRI with PID 23892 (F:\workspace\springBoot-customer\target\classes started by TGKJ in F:\workspace\springBoot-customer)
+2021-07-05 14:29:42,312 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-07-05 14:29:42,312 INFO (SpringApplication.java:655)- The following profiles are active: test
+2021-07-05 14:29:47,950 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select cfi.id AS "cfi_id", cfi.formName AS "cfi_formName", cfi.formDescribe AS "cfi_formDescribe", cfi.status AS "cfi_status" cfe.id AS "cfe_id", cfe.columnType AS "cfe_columnType", cfe.title AS "cfe_title", cfe.log AS "cfe_log", cfe.req AS "cfe_req", cfe.value AS "cfe_value", cfe.items AS "cfe_items" from customer_form cf left join customer_form_info cfi on cf.customer_form_info_id = cfi.id left join customer_form_element cfe on cf.customer_form_element_id = cfe.id 
+2021-07-05 14:29:48,165 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2021-07-05 14:30:12,942 INFO (StartupInfoLogger.java:55)- Starting CustomerApplication on LAPTOP-CL83BIRI with PID 13868 (F:\workspace\springBoot-customer\target\classes started by TGKJ in F:\workspace\springBoot-customer)
+2021-07-05 14:30:12,944 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-07-05 14:30:12,945 INFO (SpringApplication.java:655)- The following profiles are active: test
+2021-07-05 14:30:17,561 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select cfi.id AS "cfi_id", cfi.formName AS "cfi_formName", cfi.formDescribe AS "cfi_formDescribe", cfi.status AS "cfi_status" , cfe.id AS "cfe_id", cfe.columnType AS "cfe_columnType", cfe.title AS "cfe_title", cfe.log AS "cfe_log", cfe.req AS "cfe_req", cfe.value AS "cfe_value", cfe.items AS "cfe_items" from customer_form cf left join customer_form_info cfi on cf.customer_form_info_id = cfi.id left join customer_form_element cfe on cf.customer_form_element_id = cfe.id 
+2021-07-05 14:30:17,827 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2021-07-05 14:30:18,020 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2021-07-05 15:12:49,227 INFO (StartupInfoLogger.java:55)- Starting CustomerApplication on LAPTOP-CL83BIRI with PID 24940 (F:\workspace\springBoot-customer\target\classes started by TGKJ in F:\workspace\springBoot-customer)
+2021-07-05 15:12:49,231 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-07-05 15:12:49,231 INFO (SpringApplication.java:655)- The following profiles are active: test
+2021-07-05 15:13:02,402 INFO (StartupInfoLogger.java:55)- Starting CustomerApplication on LAPTOP-CL83BIRI with PID 14752 (F:\workspace\springBoot-customer\target\classes started by TGKJ in F:\workspace\springBoot-customer)
+2021-07-05 15:13:02,404 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-07-05 15:13:02,405 INFO (SpringApplication.java:655)- The following profiles are active: test
+2021-07-05 15:13:23,717 INFO (StartupInfoLogger.java:55)- Starting CustomerApplication on LAPTOP-CL83BIRI with PID 30120 (F:\workspace\springBoot-customer\target\classes started by TGKJ in F:\workspace\springBoot-customer)
+2021-07-05 15:13:23,723 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-07-05 15:13:23,723 INFO (SpringApplication.java:655)- The following profiles are active: test
+2021-07-05 15:13:28,212 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select cfi.id AS "cfi_id", cfi.formName AS "cfi_formName", cfi.formDescribe AS "cfi_formDescribe", cfi.status AS "cfi_status" , cfe.id AS "cfe_id", cfe.columnType AS "cfe_columnType", cfe.title AS "cfe_title", cfe.log AS "cfe_log", cfe.req AS "cfe_req", cfe.value AS "cfe_value", cfe.items AS "cfe_items" from customer_form cf left join customer_form_info cfi on cf.customer_form_info_id = cfi.id left join customer_form_element cfe on cf.customer_form_element_id = cfe.id 
+2021-07-05 15:13:28,438 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2021-07-05 15:18:10,206 INFO (StartupInfoLogger.java:55)- Starting CustomerApplication on LAPTOP-CL83BIRI with PID 19232 (F:\workspace\springBoot-customer\target\classes started by TGKJ in F:\workspace\springBoot-customer)
+2021-07-05 15:18:10,209 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-07-05 15:18:10,209 INFO (SpringApplication.java:655)- The following profiles are active: test
+2021-07-05 15:18:14,234 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select cfi.id AS "cfi_id", cfi.formName AS "cfi_formName", cfi.formDescribe AS "cfi_formDescribe", cfi.status AS "cfi_status" , cfe.id AS "cfe_id", cfe.columnType AS "cfe_columnType", cfe.title AS "cfe_title", cfe.log AS "cfe_log", cfe.req AS "cfe_req", cfe.value AS "cfe_value", cfe.items AS "cfe_items" from customer_form cf left join customer_form_info cfi on cf.customer_form_info_id = cfi.id left join customer_form_element cfe on cf.customer_form_element_id = cfe.id 
+2021-07-05 15:18:14,467 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2021-07-05 15:24:33,226 INFO (StartupInfoLogger.java:55)- Starting CustomerApplication on LAPTOP-CL83BIRI with PID 9936 (F:\workspace\springBoot-customer\target\classes started by TGKJ in F:\workspace\springBoot-customer)
+2021-07-05 15:24:33,228 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-07-05 15:24:33,228 INFO (SpringApplication.java:655)- The following profiles are active: test
+2021-07-05 15:24:38,465 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select cfi.id AS "cfi_id", cfi.formName AS "cfi_formName", cfi.formDescribe AS "cfi_formDescribe", cfi.status AS "cfi_status" , cfe.id AS "cfe_id", cfe.columnType AS "cfe_columnType", cfe.title AS "cfe_title", cfe.log AS "cfe_log", cfe.req AS "cfe_req", cfe.value AS "cfe_value", cfe.items AS "cfe_items" from customer_form cf left join customer_form_info cfi on cf.customer_form_info_id = cfi.id left join customer_form_element cfe on cf.customer_form_element_id = cfe.id 
+2021-07-05 15:24:38,718 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2021-07-05 15:24:38,920 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2021-07-05 15:36:37,550 INFO (StartupInfoLogger.java:55)- Starting CustomerApplication on LAPTOP-CL83BIRI with PID 29192 (F:\workspace\springBoot-customer\target\classes started by TGKJ in F:\workspace\springBoot-customer)
+2021-07-05 15:36:37,554 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-07-05 15:36:37,555 INFO (SpringApplication.java:655)- The following profiles are active: test
+2021-07-05 15:36:41,883 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select cfi.id AS "cfi_id", cfi.formName AS "cfi_formName", cfi.formDescribe AS "cfi_formDescribe", cfi.status AS "cfi_status" , cfe.id AS "cfe_id", cfe.columnType AS "cfe_columnType", cfe.title AS "cfe_title", cfe.log AS "cfe_log", cfe.req AS "cfe_req", cfe.value AS "cfe_value", cfe.items AS "cfe_items" from customer_form cf left join customer_form_info cfi on cf.customer_form_info_id = cfi.id left join customer_form_element cfe on cf.customer_form_element_id = cfe.id 
+2021-07-05 15:36:42,110 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2021-07-05 15:36:42,279 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2021-07-05 15:39:01,067 INFO (StartupInfoLogger.java:55)- Starting CustomerApplication on LAPTOP-CL83BIRI with PID 21140 (F:\workspace\springBoot-customer\target\classes started by TGKJ in F:\workspace\springBoot-customer)
+2021-07-05 15:39:01,069 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-07-05 15:39:01,070 INFO (SpringApplication.java:655)- The following profiles are active: test
+2021-07-05 15:39:02,284 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select cfi.id AS "cfi_id", cfi.formName AS "cfi_formName", cfi.formDescribe AS "cfi_formDescribe", cfi.status AS "cfi_status" , cfe.id AS "cfe_id", cfe.columnType AS "cfe_columnType", cfe.title AS "cfe_title", cfe.log AS "cfe_log", cfe.req AS "cfe_req", cfe.value AS "cfe_value", cfe.items AS "cfe_items" from customer_form cf left join customer_form_info cfi on cf.customer_form_info_id = cfi.id left join customer_form_element cfe on cf.customer_form_element_id = cfe.id 
+2021-07-05 15:39:02,307 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2021-07-05 15:39:02,328 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2021-07-05 15:39:02,680 INFO (StartupInfoLogger.java:61)- Started CustomerApplication in 2.003 seconds (JVM running for 2.764)
+2021-07-05 15:40:06,737 INFO (StartupInfoLogger.java:55)- Starting CustomerApplication on LAPTOP-CL83BIRI with PID 24308 (F:\workspace\springBoot-customer\target\classes started by TGKJ in F:\workspace\springBoot-customer)
+2021-07-05 15:40:06,741 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-07-05 15:40:06,741 INFO (SpringApplication.java:655)- The following profiles are active: test
+2021-07-05 15:40:08,049 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select cfi.id AS "cfi_id", cfi.formName AS "cfi_formName", cfi.formDescribe AS "cfi_formDescribe", cfi.status AS "cfi_status" , cfe.id AS "cfe_id", cfe.columnType AS "cfe_columnType", cfe.title AS "cfe_title", cfe.log AS "cfe_log", cfe.req AS "cfe_req", cfe.value AS "cfe_value", cfe.items AS "cfe_items" from customer_form cf left join customer_form_info cfi on cf.customer_form_info_id = cfi.id left join customer_form_element cfe on cf.customer_form_element_id = cfe.id 
+2021-07-05 15:40:08,071 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2021-07-05 15:40:08,093 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2021-07-05 15:41:55,496 INFO (StartupInfoLogger.java:55)- Starting CustomerApplication on LAPTOP-CL83BIRI with PID 13548 (F:\workspace\springBoot-customer\target\classes started by TGKJ in F:\workspace\springBoot-customer)
+2021-07-05 15:41:55,501 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-07-05 15:41:55,502 INFO (SpringApplication.java:655)- The following profiles are active: test
+2021-07-05 15:41:56,788 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select cfi.id AS "cfi_id", cfi.formName AS "cfi_formName", cfi.formDescribe AS "cfi_formDescribe", cfi.status AS "cfi_status" , cfe.id AS "cfe_id", cfe.columnType AS "cfe_columnType", cfe.title AS "cfe_title", cfe.log AS "cfe_log", cfe.req AS "cfe_req", cfe.value AS "cfe_value", cfe.items AS "cfe_items" from customer_form cf left join customer_form_info cfi on cf.customer_form_info_id = cfi.id left join customer_form_element cfe on cf.customer_form_element_id = cfe.id 
+2021-07-05 15:41:56,806 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2021-07-05 15:41:56,830 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2021-07-05 15:42:39,480 INFO (StartupInfoLogger.java:55)- Starting CustomerApplication on LAPTOP-CL83BIRI with PID 25204 (F:\workspace\springBoot-customer\target\classes started by TGKJ in F:\workspace\springBoot-customer)
+2021-07-05 15:42:39,483 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-07-05 15:42:39,483 INFO (SpringApplication.java:655)- The following profiles are active: test
+2021-07-05 15:42:44,584 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select cfi.id AS "cfi_id", cfi.formName AS "cfi_formName", cfi.formDescribe AS "cfi_formDescribe", cfi.status AS "cfi_status" , cfe.id AS "cfe_id", cfe.columnType AS "cfe_columnType", cfe.title AS "cfe_title", cfe.log AS "cfe_log", cfe.req AS "cfe_req", cfe.value AS "cfe_value", cfe.items AS "cfe_items" from customer_form cf left join customer_form_info cfi on cf.customer_form_info_id = cfi.id left join customer_form_element cfe on cf.customer_form_element_id = cfe.id 
+2021-07-05 15:42:44,790 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2021-07-05 15:42:44,961 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2021-07-05 15:43:46,425 INFO (StartupInfoLogger.java:55)- Starting CustomerApplication on LAPTOP-CL83BIRI with PID 21620 (F:\workspace\springBoot-customer\target\classes started by TGKJ in F:\workspace\springBoot-customer)
+2021-07-05 15:43:46,430 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-07-05 15:43:46,431 INFO (SpringApplication.java:655)- The following profiles are active: test
+2021-07-05 15:44:18,162 INFO (StartupInfoLogger.java:55)- Starting CustomerApplication on LAPTOP-CL83BIRI with PID 1272 (F:\workspace\springBoot-customer\target\classes started by TGKJ in F:\workspace\springBoot-customer)
+2021-07-05 15:44:18,165 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-07-05 15:44:18,165 INFO (SpringApplication.java:655)- The following profiles are active: test
+2021-07-05 15:44:22,220 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select cfi.id AS "cfi_id", cfi.formName AS "cfi_formName", cfi.formDescribe AS "cfi_formDescribe", cfi.status AS "cfi_status" , cfe.id AS "cfe_id", cfe.columnType AS "cfe_columnType", cfe.title AS "cfe_title", cfe.log AS "cfe_log", cfe.req AS "cfe_req", cfe.value AS "cfe_value", cfe.items AS "cfe_items" from customer_form cf left join customer_form_info cfi on cf.customer_form_info_id = cfi.id left join customer_form_element cfe on cf.customer_form_element_id = cfe.id 
+2021-07-05 15:44:22,431 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2021-07-05 15:44:22,600 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2021-07-05 15:45:33,499 INFO (StartupInfoLogger.java:55)- Starting CustomerApplication on LAPTOP-CL83BIRI with PID 16788 (F:\workspace\springBoot-customer\target\classes started by TGKJ in F:\workspace\springBoot-customer)
+2021-07-05 15:45:33,501 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-07-05 15:45:33,502 INFO (SpringApplication.java:655)- The following profiles are active: test
+2021-07-05 15:45:34,804 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select cfi.id AS "cfi_id", cfi.formName AS "cfi_formName", cfi.formDescribe AS "cfi_formDescribe", cfi.status AS "cfi_status" , cfe.id AS "cfe_id", cfe.columnType AS "cfe_columnType", cfe.title AS "cfe_title", cfe.log AS "cfe_log", cfe.req AS "cfe_req", cfe.value AS "cfe_value", cfe.items AS "cfe_items" from customer_form cf left join customer_form_info cfi on cf.customer_form_info_id = cfi.id left join customer_form_element cfe on cf.customer_form_element_id = cfe.id 
+2021-07-05 15:45:34,828 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2021-07-05 15:45:34,853 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2021-07-05 15:46:25,243 INFO (StartupInfoLogger.java:55)- Starting CustomerApplication on LAPTOP-CL83BIRI with PID 24384 (F:\workspace\springBoot-customer\target\classes started by TGKJ in F:\workspace\springBoot-customer)
+2021-07-05 15:46:25,246 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-07-05 15:46:25,247 INFO (SpringApplication.java:655)- The following profiles are active: test
+2021-07-05 15:46:26,495 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select cfi.id AS "cfi_id", cfi.formName AS "cfi_formName", cfi.formDescribe AS "cfi_formDescribe", cfi.status AS "cfi_status" , cfe.id AS "cfe_id", cfe.columnType AS "cfe_columnType", cfe.title AS "cfe_title", cfe.log AS "cfe_log", cfe.req AS "cfe_req", cfe.value AS "cfe_value", cfe.items AS "cfe_items" from customer_form cf left join customer_form_info cfi on cf.customer_form_info_id = cfi.id left join customer_form_element cfe on cf.customer_form_element_id = cfe.id 
+2021-07-05 15:46:26,515 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2021-07-05 15:46:26,538 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2021-07-05 15:47:00,267 INFO (StartupInfoLogger.java:61)- Started CustomerApplication in 35.399 seconds (JVM running for 36.113)
