@@ -6,7 +6,7 @@ server:
       max: 100
 spring:
   application:
-    name: Spring-Customer-Form                                       #Quartz调度中心
+    name: Spring-Customer-Form                                       #自定义表单
   profiles:
     active: test
   thymeleaf:
