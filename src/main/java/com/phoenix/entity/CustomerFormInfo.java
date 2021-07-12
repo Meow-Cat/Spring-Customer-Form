@@ -1,12 +1,17 @@
 package com.phoenix.entity;
 
-import java.util.ArrayList;
+import com.phoenix.util.CustomerFormUtil;
+import lombok.*;
+
+import java.io.Serializable;
 import java.util.List;
 
 /**
  * 自定义表单信息
  */
-public class CustomerFormInfo {
+
+@Data
+public class CustomerFormInfo implements Serializable {
 
     private String id;  //主键
     private String formName; //表单名称
@@ -15,43 +20,7 @@ public class CustomerFormInfo {
 
     private List<CustomerFormElement> customerFormElementList;
 
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
-    }
-
-    public String getFormName() {
-        return formName;
-    }
-
-    public void setFormName(String formName) {
-        this.formName = formName;
-    }
-
-    public String getFormDescribe() {
-        return formDescribe;
-    }
-
-    public void setFormDescribe(String formDescribe) {
-        this.formDescribe = formDescribe;
-    }
-
-    public String getStatus() {
-        return status;
-    }
-
-    public void setStatus(String status) {
-        this.status = status;
-    }
-
-    public List<CustomerFormElement> getCustomerFormElementList() {
-        return customerFormElementList;
-    }
-
-    public void setCustomerFormElementList(List<CustomerFormElement> customerFormElementList) {
-        this.customerFormElementList = customerFormElementList;
+    public String getConfig(){
+        return CustomerFormUtil.getConfigs(this);
     }
 }

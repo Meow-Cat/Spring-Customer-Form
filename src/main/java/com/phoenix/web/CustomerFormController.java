@@ -23,9 +23,13 @@ public class CustomerFormController {
     public void test(){
         List<CustomerFormInfo> list = customerFormService.findList(new CustomerFormInfo());
         list.forEach(customerFormInfo -> {
-            System.out.println(CustomerFormUtil.getConfigs(customerFormInfo));
-            CustomerFormUtil.getCustomerFormElementList(CustomerFormUtil.getConfigs(customerFormInfo),customerFormInfo);
+            System.out.println(customerFormInfo.getConfig());
         });
         System.out.println("init success");
+    }
+
+    @RequestMapping("/index")
+    public String index(){
+        return "index";
     }
 }

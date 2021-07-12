@@ -27,16 +27,16 @@ public class CustomerFormUtil {
             customerFormInfo.getCustomerFormElementList().forEach(customerFormElement -> {
                 String id = customerFormElement.getId();
                 String title = customerFormElement.getTitle();
+                String placeholder = customerFormElement.getPlaceholder();
                 String columnType = customerFormElement.getColumnType();
-                String log = customerFormElement.getLog();
                 String req = customerFormElement.getReq();
                 String value = customerFormElement.getValue();
                 String items = customerFormElement.getItems();
                 JSONObject configsJson = new JSONObject();
                 configsJson.put("id",id);
                 configsJson.put("title",title);
+                configsJson.put("placeholder",placeholder);
                 configsJson.put("columnType",columnType);
-                configsJson.put("log",log);
                 configsJson.put("req",req);
                 configsJson.put("value",value);
                 configsJson.put("items",items);
@@ -66,8 +66,8 @@ public class CustomerFormUtil {
                 CustomerFormElement customerFormElement = new CustomerFormElement();
                 customerFormElement.setId(jsonObject.getString("id"));
                 customerFormElement.setTitle(jsonObject.getString("title"));
+                customerFormElement.setPlaceholder(jsonObject.getString("placeholder"));
                 customerFormElement.setColumnType(jsonObject.getString("columnType"));
-                customerFormElement.setLog(jsonObject.getString("log"));
                 customerFormElement.setReq(jsonObject.getString("req"));
                 customerFormElement.setValue(jsonObject.getString("value"));
                 customerFormElement.setItems(jsonObject.getString("items"));

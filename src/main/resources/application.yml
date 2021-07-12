@@ -4,6 +4,8 @@ server:
     uri-encoding: UTF-8
     threads:
       max: 100
+  servlet:
+    context-path: /index
 spring:
   application:
     name: Spring-Customer-Form                                       #自定义表单
@@ -16,8 +18,10 @@ spring:
     cache: false  #是否使用缓存
     mode: HTML  #严格的HTML语法模式
     suffix: .html  #后缀名
+  resources:
+    static-locations: classpath:/static/
   mvc:
-    static-path-pattern: /**
+    static-path-pattern: /static/**
 logging:
   config: classpath:logback-boot.xml
   level: error

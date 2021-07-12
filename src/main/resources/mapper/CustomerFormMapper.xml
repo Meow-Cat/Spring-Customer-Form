@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.phoenix.mapper.CustomerFormMapper">
 
-    <resultMap id="CustomerFormResultMap" type="com.phoenix.entity.CustomerFormInfo" >
+    <resultMap id="customerFormInfoResultMap" type="com.phoenix.entity.CustomerFormInfo" >
         <id property="id" column="cfi_id" />
         <result property="formName" column="cfi_formName" />
         <result property="formDescribe" column="cfi_formDescribe" />
@@ -11,7 +11,7 @@
             <id property="id" column="cfe_id" />
             <result property="columnType" column="cfe_columnType" />
             <result property="title" column="cfe_title" />
-            <result property="log" column="cfe_log" />
+            <result property="placeholder" column="cfe_placeholder" />
             <result property="req" column="cfe_req" />
             <result property="value" column="cfe_value" />
             <result property="items" column="cfe_items" />
@@ -29,7 +29,7 @@
         cfe.id AS "cfe_id",
         cfe.columnType AS "cfe_columnType",
         cfe.title AS "cfe_title",
-        cfe.log AS "cfe_log",
+        cfe.placeholder AS "cfe_placeholder",
         cfe.req AS "cfe_req",
         cfe.value AS "cfe_value",
         cfe.items AS "cfe_items"
@@ -43,7 +43,7 @@
         left join customer_form_element cfe on cf.customer_form_element_id = cfe.id
     </sql>
 
-    <select id="findList" resultMap="CustomerFormResultMap">
+    <select id="findList" resultMap="customerFormInfoResultMap">
         select
             <include refid="infoColumns" />,
             <include refid="elementColumns" />
